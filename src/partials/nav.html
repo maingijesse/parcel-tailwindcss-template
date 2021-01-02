@@ -1,0 +1,46 @@
+<nav
+  role="navigation"
+  class="flex justify-between items-center h-16 bg-gradient-to-r from-rose-500 to-rose-400 text-white relative"
+>
+  <a href="index.html" class="pl-6 uppercase text-2xl">DenStudio</a>
+  <div class="px-4 cursor-pointer md:hidden" id="bars">
+    <svg
+      class="w-8 h-8"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M4 6h16M4 12h16m-7 6h7"
+      ></path>
+    </svg>
+  </div>
+  <div class="hidden md:block" id="menu">
+    <a href="#" class="p-4">Home</a>
+    <a href="#" class="p-4">About</a>
+    <a href="#" class="p-4">Contact</a>
+  </div>
+  <div
+    class="mob-nav absolute top-16 right-0 bg-gradient-to-r from-rose-500 to-rose-400 w-1/2 flex flex-col justify-center items-center z-10 duration-300 md:hidden hidden h-64"
+  >
+    <a
+      href="#"
+      class="p-4 block cursor-pointer hover:bg-rose-700 w-full text-center"
+      >Home</a
+    >
+    <a
+      href="#"
+      class="p-4 block cursor-pointer hover:bg-rose-700 w-full text-center"
+      >About</a
+    >
+    <a
+      href="#"
+      class="p-4 block cursor-pointer hover:bg-rose-700 w-full text-center"
+      >Contact</a
+    >
+  </div>
+</nav>
