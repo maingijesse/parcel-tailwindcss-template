@@ -7,3 +7,5 @@ A simple starter kit for HTMl css and parcel
 - Parcel JS
 - Post HTML for partial includes
 - PostCSS
+
+Deployed [Here](https://hungry-tereshkova-22e314.netlify.app/)
